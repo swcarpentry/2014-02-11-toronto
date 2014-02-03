@@ -18,9 +18,16 @@ eventbrite: 9459779455
 {% include bootcamps/what.html %}
 {% include bootcamps/who.html %}
 {% include bootcamps/requirements.html %}
-{% include bootcamps/python.html %}
+<p>
+  <strong>Content:</strong> The syllabus for this boot camp will include:
+</p>
+<ul>
+  <li>using the Unix shell to do more in less time</li>
+  <li>basic Python programming</li>
+  <li>using version control to manage and share information</li>
+  <li>managing and structuring data with a database</li>
+</ul>
 {% include bootcamps/contact.html %}
-{% include bootcamps/eventbrite.html %}
 
 <hr/>
 
@@ -29,10 +36,55 @@ eventbrite: 9459779455
 <div class="row-fluid">
   <div class="span6">
     {% include setup/overview-bash.html %}
+  </div>
+  <div class="span6">
     {% include setup/overview-editor.html %}
+  </div>
+</div>
+
+<div class="row-fluid">
+  <div class="span6">
+    {% include setup/overview-python.html %}
   </div>
   <div class="span6">
     {% include setup/overview-git.html %}
-    {% include setup/overview-python.html %}
+  </div>
+</div>
+
+<h2>Windows</h2>
+
+<div class="row-fluid">
+  <div class="span6">
+    {% include setup/windows-bash.html %}
+    {% include setup/windows-editor.html %}
+  </div>
+  <div class="span6">
+    {% include setup/windows-python.html %}
+  </div>
+</div>
+
+<h2>Mac OS X</h2>
+
+<div class="row-fluid">
+  <div class="span6">
+    {% include setup/macosx-bash.html %}
+    {% include setup/macosx-git.html %}
+  </div>
+  <div class="span6">
+    {% include setup/macosx-editor.html %}
+    {% include setup/macosx-python.html %}
+  </div>
+</div>
+
+<h2>Linux</h2>
+
+<div class="row-fluid">
+  <div class="span6">
+    {% include setup/linux-bash.html %}
+    {% include setup/linux-git.html %}
+    {% include setup/linux-editor.html %}
+  </div>
+  <div class="span6">
+    {% include setup/linux-python.html %}
   </div>
 </div>
